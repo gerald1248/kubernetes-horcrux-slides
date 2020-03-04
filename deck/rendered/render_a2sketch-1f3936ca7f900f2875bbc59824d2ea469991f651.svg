@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="468" height="288" version="1.1" viewBox="0 0 351 216">
+    <g id="surface285">
+        <path fill="#fff" fill-opacity="1" fill-rule="nonzero" stroke="none" d="M236.172 30.61c13.098-9.165 25.937-7.637 45.14-.91 21.563-5.759 43.989 7.585 29.887 20.722 18.637 10.879.598 28.746-14.32 25.5 7.793 6.363-14.945 18.586-37.668 7.058-30.66 10.891-40.61 1.239-43.895-8.199-23.527-3.87-7.625-26.125-1.543-29.37-18.277-10.216 7.766-21.727 22.399-14.802zm0 0" transform="scale(.75)"/>
+        <path fill="none" stroke="#000" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-opacity="1" stroke-width="1.5" d="M178.325 23.405c11.762-5.516 18.468-6.369 35.387-.129m-33.703-1.857c6.463-6.946 18.964-4.195 30.404-1.116m0 0c15.689-2.549 33.46 7.605 21.302 16.222m-20.977-15.697c13.99-6.288 30.457 3.38 20.013 17.282m0 0c14.344 7.177 1.371 19.531-12.507 20.205m12.976-20.449c12.82 10.28-1.834 19.694-11.549 17.025m0 0c6.492 6.043-13.222 15.858-28.77 6.91m27.824-5.815c6.064 5.274-11.241 14.016-29.868 3.39m0 0c-22.237 8.053-32.54 1.59-32.426-8.22m33.275 6.433c-22.43 11.25-29.86 4.383-32.238-4.656m0 0c-17.018-1.755-7.717-18.732-2.833-21.94m3.592 23.288c-19.134-4.837-5.093-22.696.366-25.65m0 0c-13.333-7.86 4.195-15.389 15.322-12.251M156.92 29.59c-12.172-7.383 7.034-18.55 20.698-9.6m-.363.377c.788-1.854.583.085.729 2.614m-.51-2.766c.449 3.36.827 4.441.743 3.155"/>
+        <path fill="#ef5ba1" fill-opacity="1" fill-rule="nonzero" stroke="none" d="M67.5 168h117v64h-117zm0 0" transform="scale(.75)"/>
+        <path fill="none" stroke="#000" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-opacity="1" stroke-width="1.5" d="M49.4 126.381c36.238-.181 66.449.89 90.235.796m-88.02.329c18.888.724 36.39.188 87.184-.771m.636.765c-.708 18.835-2.08 36.358 1.116 46.72m-1.274-47.45c1.005 16.612-1.025 28.251-.547 49.53m-.118.471c-25.391-1.113-51.443-1.432-85.324-.58m85.078-.322c-29.573-.199-60.472-.934-88.08-.483m3.136-1.23c-1.359-10.138-2.229-24.323-.063-47.142m-2.687 49.219c-.507-18.876.437-36.244 1.614-47.845"/>
+        <path fill="#f99c41" fill-opacity="1" fill-rule="nonzero" stroke="none" d="M337.5 168h117v64h-117zm0 0" transform="scale(.75)"/>
+        <path fill="none" stroke="#000" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-opacity="1" stroke-width="1.5" d="M253.084 123.673c23.095.622 45.349 1.53 85.807 1.25m-88.248.93c32.324-1.763 62.289-3.213 88.319-1.113m-.038-.483c.108 7.543 1.734 19.5-1.404 48.363m2.072-48.006c.556 17.2.292 31.046.214 47.822m-2.212 1.736c-22.38-3.198-50.549.018-84.653 1.067m86.01-1.488c-27.68-2.613-56.717-1.652-87.458-1.184m1.345 2.318c-3.185-18.17-1.734-39.44-2.414-49.031m.627 47.8c-.102-21.715 1.166-39.832.84-48.902m-161.645-9.747c-1.31-9.03-.366-19.503.938-23.215m-1.77 22.213c1.565-9.237.695-16.679.02-23.95m-.676-.77c65.282-1.973 126.011.4 202.72 1.215m-201.882.363c44.883 2.734 91.555 3.771 202.45-.03m-1.116.18c3.448 4.731 2.27 13.183.26 22.222m.58-23.447c-.324 9.668.381 20.057.745 24.706"/>
+        <path fill="none" stroke="#000" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-opacity="1" stroke-width="1.5" d="M195.047 69.955c.545 4.84-.12 6.843-.58 21.49m-1.078-24.059c-.762 9.568-.575 18.114 1.207 24.661"/>
+    </g>
+    <defs xmlns="http://www.w3.org/2000/svg">
+        <filter id="dsFilterNoBlur" width="150%" height="150%">
+            <feOffset dx="3" dy="3" in="SourceGraphic" result="offOut"/>
+            <feColorMatrix in="offOut" result="matrixOut" type="matrix" values="0.2 0 0 0 0 0 0.2 0 0 0 0 0 0.2 0 0 0 0 0 1 0"/>
+            <feBlend in="SourceGraphic" in2="matrixOut" mode="normal"/>
+        </filter>
+        <filter id="dsFilter" width="150%" height="150%">
+            <feOffset dx="3" dy="3" in="SourceGraphic" result="offOut"/>
+            <feColorMatrix in="offOut" result="matrixOut" type="matrix" values="0.2 0 0 0 0 0 0.2 0 0 0 0 0 0.2 0 0 0 0 0 1 0"/>
+            <feGaussianBlur in="matrixOut" result="blurOut" stdDeviation="3"/>
+            <feBlend in="SourceGraphic" in2="blurOut" mode="normal"/>
+        </filter>
+        <marker id="iPointer-oh9n3hj557s" fill="#000" markerHeight="7" markerUnits="strokeWidth" markerWidth="8" orient="auto" refX="5" refY="5" viewBox="0 0 10 10">
+            <path d="M10 0v10L0 5z"/>
+        </marker>
+        <marker id="Pointer-oh9n3hj557s" fill="#000" markerHeight="7" markerUnits="strokeWidth" markerWidth="8" orient="auto" refX="5" refY="5" viewBox="0 0 10 10">
+            <path d="M0 0l10 5-10 5z"/>
+        </marker>
+    </defs>
+    <defs>
+        <style type="text/css">
+            @font-face{font-family:&quot;xkcd Script&quot;;src:url(./xkcd-script.ttf)}
+        </style>
+    </defs>
+    <g xmlns="http://www.w3.org/2000/svg" id="lines-oh9n3hj557s" fill="none" stroke="#000" stroke-width="2" transform="scale(.75)">
+        <g id="group265">
+            <path id="path265" marker-end="url(#Pointer-oh9n3hj557s)" marker-start="url(#iPointer-oh9n3hj557s)" d="M121.5 152v-32h270v32"/>
+        </g>
+        <g id="group531">
+            <path id="path531" d="M256.5 88v32"/>
+        </g>
+    </g>
+    <text id="text0" x="161.325" y="45.6" fill="#000" stroke="none" font-family="xkcd Script" font-size="15">
+        Users
+    </text>
+    <text id="text3" x="60.075" y="153.6" fill="#fff" stroke="none" font-family="xkcd Script" font-size="15">
+        v1.0.0
+    </text>
+    <text id="text4" x="262.575" y="153.6" fill="#fff" stroke="none" font-family="xkcd Script" font-size="15">
+        v1.0.1-beta
+    </text>
+    <text id="text1" x="100.575" y="81.6" fill="#000" font-family="xkcd Script" font-size="15">
+        95%
+    </text>
+    <text id="text2" x="269.325" y="81.6" fill="#000" font-family="xkcd Script" font-size="15">
+        5%
+    </text>
+</svg>

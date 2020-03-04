@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="446pt" height="432" version="1.1" viewBox="0 0 446 324">
+    <g id="surface301">
+        <path fill="#ef5ba1" fill-opacity="1" fill-rule="nonzero" stroke="none" d="M4.5 8h234v96H4.5zm0 0" transform="scale(.75)"/>
+        <path fill="none" stroke="#000" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-opacity="1" stroke-width="1.5" d="M5.926 5.464c63.443 4.995 127.539 1.895 172.208-.36M4.014 6.788c39.203.108 78.565.181 176.218-.08m-1.319-2.027c.6 14.12 3.108 32.162.173 74.69m.847-73.86c.087 16.036-.363 29.088-.12 73.742m2.173-1.752c-59.296-1.151-119.516.32-177.334.161m175.8.727c-62.298.34-121.703-.882-176.465-.061m.72-1.56c-1.317-23.147.166-51.255.725-69.562m-2.35 71.005c.408-26.736-.45-52.828 1.677-71.865"/>
+        <path fill="#f99c41" fill-opacity="1" fill-rule="nonzero" stroke="none" d="M274.5 8h234v96h-234zm0 0" transform="scale(.75)"/>
+        <path fill="none" stroke="#000" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-opacity="1" stroke-width="1.5" d="M206.212 6.794c37.684 4.245 74.318 5.894 171.583-1.776M203.241 6.381c41.107 2.127 79.269 2.985 177.012 1.52m.835.888c1.075 15.911-.712 34.919.064 71.66m-1.921-72.782c-.08 9.035.457 25.055.397 70.274m.314 2.775c-68.886-.765-138.72-1.62-177.044-.612m176.892-1.199c-43.087-.21-86.247 1.21-176.139-.27m-.68 2.297c2.292-27.105-.755-49.356 3.056-74.337m-1.101 71.895c-.243-24.868-.405-46.674-.29-71.075"/>
+        <path fill="#fff" fill-opacity="1" fill-rule="nonzero" stroke="none" d="M94.5 136h315v96h-315zm0 0" transform="scale(.75)"/>
+        <path fill="none" stroke="#000" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-opacity="1" stroke-width="1.5" d="M74.08 99.873c53.212-.855 107.355.292 234.234.076m-235.778-.126c93.378 2.549 188.104 2.238 236.862.592m-2.63.345c1.253 15.965 4.359 29.5.794 70.6m.055-71.156c.897 25.582 1.35 49.257.624 72.246m1.462.571c-63.686-2.677-130.573-2.593-238.477-2.979m236.681 1.424c-93.571.642-185.935-.607-236.068.407m-.867.937c-.159-26.314-.988-51.732-.355-73.14m1.998 72.88c-.812-20.558.797-37.436.533-72.379"/>
+        <path fill="#27bdce" fill-opacity="1" fill-rule="nonzero" stroke="none" d="M4.5 264h234v96H4.5zm0 0" transform="scale(.75)"/>
+        <path fill="none" stroke="#000" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-opacity="1" stroke-width="1.5" d="M2.34 197.233c49.146 1.104 94.2 3.015 176.972.286m-175.278-.58c62.297-2.463 126.876-.97 174.449-.325m-1.658 1.395c1.626 16.248 1.584 32.82 2.399 72.421m-.083-73.977c.048 20.04-.813 40.104.393 72.958m-1.473 1.184c-46.11-1.773-90.191-2.833-175.357-1.398m175.576.888c-39.808-.638-78.489-1.59-174.85-1.814m.889-.999c-3.264-12.996-1.199-30.706-.098-70.242m-.535 73.017c-1.038-19.137-.399-38.728-.929-72.059"/>
+        <path fill="#00aa5b" fill-opacity="1" fill-rule="nonzero" stroke="none" d="M274.5 264h234v96h-234zm0 0" transform="scale(.75)"/>
+        <path fill="none" stroke="#000" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-opacity="1" stroke-width="1.5" d="M202.82 197.906c41.402-4.327 80.308-2.915 179.26-1.603M205.457 199.2c61.029 3.163 120.621 3.015 174.243-.173m-1.052-2.632c2.737 18.856 2.192 42.15 1.325 74.681m-.935-73.66c.964 28.982 1.236 56.689.902 72.12m.615-.443c-41.976 2.554-83.443 4.386-176.159 3.073m175.87-1.749c-49.002.164-95.98.319-174.891.062m-2.927-1.21c1.515-20.306.938-39.733 1.691-72.943m1.233 74.817c-1.937-19.755-.662-38.493-1.313-73.786"/>
+    </g>
+    <defs xmlns="http://www.w3.org/2000/svg">
+        <filter id="dsFilterNoBlur" width="150%" height="150%">
+            <feOffset dx="3" dy="3" in="SourceGraphic" result="offOut"/>
+            <feColorMatrix in="offOut" result="matrixOut" type="matrix" values="0.2 0 0 0 0 0 0.2 0 0 0 0 0 0.2 0 0 0 0 0 1 0"/>
+            <feBlend in="SourceGraphic" in2="matrixOut" mode="normal"/>
+        </filter>
+        <filter id="dsFilter" width="150%" height="150%">
+            <feOffset dx="3" dy="3" in="SourceGraphic" result="offOut"/>
+            <feColorMatrix in="offOut" result="matrixOut" type="matrix" values="0.2 0 0 0 0 0 0.2 0 0 0 0 0 0.2 0 0 0 0 0 1 0"/>
+            <feGaussianBlur in="matrixOut" result="blurOut" stdDeviation="3"/>
+            <feBlend in="SourceGraphic" in2="blurOut" mode="normal"/>
+        </filter>
+        <marker id="iPointer-k64m7uwe8a" fill="#000" markerHeight="7" markerUnits="strokeWidth" markerWidth="8" orient="auto" refX="5" refY="5" viewBox="0 0 10 10">
+            <path d="M10 0v10L0 5z"/>
+        </marker>
+        <marker id="Pointer-k64m7uwe8a" fill="#000" markerHeight="7" markerUnits="strokeWidth" markerWidth="8" orient="auto" refX="5" refY="5" viewBox="0 0 10 10">
+            <path d="M0 0l10 5-10 5z"/>
+        </marker>
+    </defs>
+    <defs>
+        <style type="text/css">
+            @font-face{font-family:&quot;xkcd Script&quot;;src:url(./xkcd-script.ttf)}
+        </style>
+    </defs>
+    ??
+    <text id="text1" x="46.575" y="45.6" fill="#fff" stroke="none" font-family="xkcd Script" font-size="15">
+        Microsoft
+    </text>
+    <text id="text0" x="262.575" y="33.6" fill="#fff" stroke="none" font-family="xkcd Script" font-size="15">
+        IBM
+    </text>
+    <text id="text2" x="262.575" y="45.6" fill="#fff" stroke="none" font-family="xkcd Script" font-size="15">
+        Red Hat
+    </text>
+    <text id="text3" x="262.575" y="57.6" fill="#fff" stroke="none" font-family="xkcd Script" font-size="15">
+        CoreOS
+    </text>
+    <text id="text4" x="168.075" y="141.6" fill="#000" stroke="none" font-family="xkcd Script" font-size="15">
+        Google
+    </text>
+    <text id="text5" x="60.075" y="237.6" fill="#fff" stroke="none" font-family="xkcd Script" font-size="15">
+        VMware
+    </text>
+    <text id="text6" x="262.575" y="237.6" fill="#fff" stroke="none" font-family="xkcd Script" font-size="15">
+        Alibaba
+    </text>
+    <text id="text7" x="60.075" y="297.6" fill="#000" font-family="xkcd Script" font-size="15">
+        Cloud Native Computing Foundation (CNCF)
+    </text>
+</svg>

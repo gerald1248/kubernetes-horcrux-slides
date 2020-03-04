@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="365pt" height="256" version="1.1" viewBox="0 0 365 192">
+    <g id="surface349">
+        <path fill="#fff" fill-opacity="1" fill-rule="nonzero" stroke="none" d="M4.5 34c0-6.668 3.332-10 10-10h448c6.668 0 10 3.332 10 10v54H4.5zm0 0" transform="scale(.75)"/>
+        <path fill="none" stroke="#000" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-opacity="1" stroke-width="1.5" d="M5.548 26.303c-1.072-5.51 1.515-7.84 7.762-6.987m-7.088 4.681c-1.98-4.778-.491-7.26 4.46-7.447m.682-.483c117.197-1.62 233.452-1.767 335.843-1.178m-337.408.946c129.823-1.418 260.713-2.453 337.344-.302m-.16.858c4.564.745 6.905 2.898 7.025 6.458m-8.748-7.958c6.372 1.937 9.179 5.517 8.414 10.744m1.096-2.051c-1.227 7.512.697 15.577-.161 43.049m-1.974-40.668c1.67 6.656 1.857 15.586 1.605 40.684m-.477.11c-123.343-2.661-248.04.099-349.04 1.2m349.506-2.528c-76.047.114-149.877.591-351.668 1.154m2.78-.563c-.97-9.057-2.736-16.261-2.722-41.96M2.37 65.607c1.35-9.244.193-17.453 2.71-38.667"/>
+        <path fill="#fff" fill-opacity="1" fill-rule="nonzero" stroke="none" d="M4.5 88h468v64H4.5zm0 0" transform="scale(.75)"/>
+        <path fill="none" stroke="#000" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-opacity="1" stroke-width="1.5" d="M3.63 67.016c112.391 6.068 228.281 6.903 347.651 1.618M1.216 67.418c73.48 4.385 146.698 3.146 352.89.945m-.891-.137c-1.011 19.084-1.356 36.527-1.184 48.964m1.427-49.937c.222 16.614-.88 30.812-.03 49.676m1.68-3.02c-114.346 1.361-222.78 1.766-351.118 1.555m349.36-.454c-97.213 1.886-193.92 1.42-349.351-.118m1.333 1.018c-2.048-13.17-2.865-23.128-3.25-47.925m1.706 47.874c-1.07-18.067-1.192-37.55-.62-47.407"/>
+        <path fill="#fff" fill-opacity="1" fill-rule="nonzero" stroke="none" d="M4.5 152h468v54c0 6.668-3.332 10-10 10h-448c-6.668 0-10-3.332-10-10zm0 0" transform="scale(.75)"/>
+        <path fill="none" stroke="#000" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-opacity="1" stroke-width="1.5" d="M.902 117.55c91.163-1.487 176.447-.43 352.63-2.803m-350.916.304c131.839 1.82 262.063 2.558 350.121.173m1.94-.29c-2.54 11.468-2.168 18.98.36 40.328m-2.757-39.24c.656 8.155.229 20.475 1.421 40.731m-.249-1.343c-.108 4.826-2.552 7.416-7.327 7.77m7.96-8.51c-1.084 4.887-4.008 7.57-8.769 8.048m-1.52 2.004c-113.614-.03-231.045-2.121-335.405-2.655m337.005 1.114c-118.937-1.149-236.807-.288-335.858.193m.865-1.755c-6.258.261-8.821-1.93-7.69-6.574m7.254 9.519c-6.053-.621-8.997-4.038-8.839-10.245m-.833.732c.683-10.427 2.151-16.673 1.096-38.358m-.41 37.476c-.738-11.232 1.254-23.367.616-39.17"/>
+    </g>
+    <defs xmlns="http://www.w3.org/2000/svg">
+        <filter id="dsFilterNoBlur" width="150%" height="150%">
+            <feOffset dx="3" dy="3" in="SourceGraphic" result="offOut"/>
+            <feColorMatrix in="offOut" result="matrixOut" type="matrix" values="0.2 0 0 0 0 0 0.2 0 0 0 0 0 0.2 0 0 0 0 0 1 0"/>
+            <feBlend in="SourceGraphic" in2="matrixOut" mode="normal"/>
+        </filter>
+        <filter id="dsFilter" width="150%" height="150%">
+            <feOffset dx="3" dy="3" in="SourceGraphic" result="offOut"/>
+            <feColorMatrix in="offOut" result="matrixOut" type="matrix" values="0.2 0 0 0 0 0 0.2 0 0 0 0 0 0.2 0 0 0 0 0 1 0"/>
+            <feGaussianBlur in="matrixOut" result="blurOut" stdDeviation="3"/>
+            <feBlend in="SourceGraphic" in2="blurOut" mode="normal"/>
+        </filter>
+        <marker id="iPointer-6ospgf393w3" fill="#000" markerHeight="7" markerUnits="strokeWidth" markerWidth="8" orient="auto" refX="5" refY="5" viewBox="0 0 10 10">
+            <path d="M10 0v10L0 5z"/>
+        </marker>
+        <marker id="Pointer-6ospgf393w3" fill="#000" markerHeight="7" markerUnits="strokeWidth" markerWidth="8" orient="auto" refX="5" refY="5" viewBox="0 0 10 10">
+            <path d="M0 0l10 5-10 5z"/>
+        </marker>
+    </defs>
+    <defs>
+        <style type="text/css">
+            @font-face{font-family:&quot;xkcd Script&quot;;src:url(./xkcd-script.ttf)}
+        </style>
+    </defs>
+    ??
+    <text id="text0" x="12.825" y="45.6" fill="#000" stroke="none" font-family="xkcd Script" font-size="15">
+        open source
+    </text>
+    <text id="text1" x="12.825" y="93.6" fill="#000" stroke="none" font-family="xkcd Script" font-size="15">
+        neutral IP ownership
+    </text>
+    <text id="text2" x="12.825" y="141.6" fill="#000" stroke="none" font-family="xkcd Script" font-size="15">
+        extensibility
+    </text>
+</svg>

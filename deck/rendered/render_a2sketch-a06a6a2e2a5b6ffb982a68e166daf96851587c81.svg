@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="466pt" height="224" version="1.1" viewBox="0 0 466 168">
+    <g id="surface317">
+        <path fill="#ef5ba1" fill-opacity="1" fill-rule="nonzero" stroke="none" d="M4.5 43.2h603v105.6H185.398L125.102 184v-35.2H4.5zm0 0" transform="scale(.75)"/>
+        <path fill="none" stroke="#000" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-opacity="1" stroke-width="1.5" d="M5.926 31.863c166.638 8.572 333.93 5.476 448.958-.357M4.014 33.187c100.522-.556 201.205-.485 452.968-.078m-1.319-2.028c.686 12.976 3.196 32.608.173 81.89m.847-81.06c.108 17.053-.34 31.57-.12 80.944m2.173-1.752c-105.984-2.971-212.891-1.5-318.41.161m316.875.726c-110.898-1.535-218.906-2.76-317.537-.061m.718-1.559c-17.071 12.21-32.019 18.776-45.697 28.392m44.074-26.95c-15.305 7.845-33.064 17.42-44.748 26.088m.773 1.878c.847-8.806-.129-14.938-1.998-26.9m1.854 25.583c-1.488-7.43.03-13.108-1.73-26.738m2.855.408c-32.115 1.324-63.489-1.483-92.688.179m91.095-1.679c-34.058 1.69-67.667.404-91.187 1.245m1.237.281c.369-21.597.246-46.014-1.846-80.326m1.623 79.945c-1.21-18.885-.943-38.256-.117-78.645m-.34-.7c.015.268.58.03.938.355m-1.125-.407c.536.176.958.305 1.219.55"/>
+    </g>
+    <defs xmlns="http://www.w3.org/2000/svg">
+        <filter id="dsFilterNoBlur" width="150%" height="150%">
+            <feOffset dx="3" dy="3" in="SourceGraphic" result="offOut"/>
+            <feColorMatrix in="offOut" result="matrixOut" type="matrix" values="0.2 0 0 0 0 0 0.2 0 0 0 0 0 0.2 0 0 0 0 0 1 0"/>
+            <feBlend in="SourceGraphic" in2="matrixOut" mode="normal"/>
+        </filter>
+        <filter id="dsFilter" width="150%" height="150%">
+            <feOffset dx="3" dy="3" in="SourceGraphic" result="offOut"/>
+            <feColorMatrix in="offOut" result="matrixOut" type="matrix" values="0.2 0 0 0 0 0 0.2 0 0 0 0 0 0.2 0 0 0 0 0 1 0"/>
+            <feGaussianBlur in="matrixOut" result="blurOut" stdDeviation="3"/>
+            <feBlend in="SourceGraphic" in2="blurOut" mode="normal"/>
+        </filter>
+        <marker id="iPointer-opldokm75i" fill="#000" markerHeight="7" markerUnits="strokeWidth" markerWidth="8" orient="auto" refX="5" refY="5" viewBox="0 0 10 10">
+            <path d="M10 0v10L0 5z"/>
+        </marker>
+        <marker id="Pointer-opldokm75i" fill="#000" markerHeight="7" markerUnits="strokeWidth" markerWidth="8" orient="auto" refX="5" refY="5" viewBox="0 0 10 10">
+            <path d="M0 0l10 5-10 5z"/>
+        </marker>
+    </defs>
+    <defs>
+        <style type="text/css">
+            @font-face{font-family:&quot;xkcd Script&quot;;src:url(./xkcd-script.ttf)}
+        </style>
+    </defs>
+    ??
+    <text id="text0" x="33.075" y="69.6" fill="#fff" stroke="none" font-family="xkcd Script" font-size="15">
+        Stateless is Easy, Stateful is Hard.
+    </text>
+    <text id="text1" x="242.325" y="93.6" fill="#fff" stroke="none" font-family="xkcd Script" font-size="15">
+        -
+    </text>
+    <text id="text2" x="255.825" y="93.6" fill="#fff" stroke="none" font-family="xkcd Script" font-size="15">
+        Brandon Philips (2016)
+    </text>
+</svg>

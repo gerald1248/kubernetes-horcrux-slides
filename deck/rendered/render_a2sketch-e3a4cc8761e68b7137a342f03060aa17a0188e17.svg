@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="547pt" height="432" version="1.1" viewBox="0 0 547 324">
+    <g id="surface412">
+        <path fill="#fff" fill-opacity="1" fill-rule="nonzero" stroke="none" d="M49.5 24h540v352h-540zm0 0" transform="scale(.75)"/>
+        <path fill="none" stroke="#000" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-opacity="1" stroke-width="1.5" d="M39.677 17.464c149.019 8.396 298.69 5.3 401.707-.36m-403.62 1.684c90.052-.528 180.266-.455 405.718-.08m-1.319-2.027c2.92 53.93 5.429 114.38.173 266.69m.847-265.86c.685 54.664.237 106.768-.12 265.742m2.173-1.752c-134.853-1.62-270.627-.15-405.638.161m404.104.727c-140.951-.14-279.012-1.365-404.77-.061m.721-1.56c-3.067-90.846-2.007-186.916-.471-261.562M38.027 282.21c-2.367-97.055-3.659-193.055.48-263.865"/>
+        <path fill="#ef5ba1" fill-opacity="1" fill-rule="nonzero" stroke="none" d="M67.5 56h234v96h-234zm0 0" transform="scale(.75)"/>
+        <path fill="none" stroke="#000" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-opacity="1" stroke-width="1.5" d="M50.963 42.794c37.683 2.403 74.317 4.055 171.582-1.776M47.991 42.381c41.107 1.171 79.269 2.03 177.012 1.52m.835.888c1.075 15.36-.712 34.368.064 71.66m-1.921-72.782c-.08 11.039.457 27.059.397 70.274m.315 2.775c-68.886-1.342-138.721-2.197-177.045-.612m176.892-1.199c-43.087-.571-86.247.847-176.139-.27m-.68 2.297c2.292-27.5-.755-49.752 3.056-74.337m-1.101 71.895c-.243-24.379-.405-46.185-.29-71.075"/>
+        <path fill="#f99c41" fill-opacity="1" fill-rule="nonzero" stroke="none" d="M337.5 56h234v96h-234zm0 0" transform="scale(.75)"/>
+        <path fill="none" stroke="#000" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-opacity="1" stroke-width="1.5" d="M256.33 39.873c39.153-.375 79.237.773 173.484.077m-175.028-.126c69.114 3.123 139.576 2.812 176.112.591m-2.63.345c1.253 15.13 4.359 28.665.794 70.6m.055-71.156c.897 26.845 1.35 50.523.624 72.246m1.462.571c-47.232-4.822-97.665-4.737-177.727-2.979m175.931 1.424c-69.586.217-137.968-1.034-175.318.407m-.867.938c-.159-25.542-.988-50.96-.355-73.14m1.998 72.879c-.812-22.6.797-39.477.533-72.378"/>
+        <path fill="#27bdce" fill-opacity="1" fill-rule="nonzero" stroke="none" d="M67.5 248h234v96h-234zm0 0" transform="scale(.75)"/>
+        <path fill="none" stroke="#000" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-opacity="1" stroke-width="1.5" d="M49.59 185.233c49.146 1.453 94.2 3.363 176.971.286m-175.277-.58c62.297-3.002 126.876-1.511 174.449-.325m-1.658 1.395c1.626 15.744 1.584 32.318 2.399 72.422m-.083-73.978c.048 20.094-.813 40.16.393 72.958m-1.473 1.184c-46.12-2.189-90.214-3.25-175.398-1.398m175.617.888c-39.817-1.052-78.51-2.004-174.89-1.814m.887-.999c-3.255-13.3-1.18-31.007-.055-70.242m-.578 73.017c-1.027-19.656-.378-39.247-.887-72.059"/>
+        <path fill="#00aa5b" fill-opacity="1" fill-rule="nonzero" stroke="none" d="M337.5 248h234v96h-234zm0 0" transform="scale(.75)"/>
+        <path fill="none" stroke="#000" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-opacity="1" stroke-width="1.5" d="M250.07 185.906c41.402-4.901 80.308-3.489 179.26-1.603M252.707 187.2c61.029 3.597 120.621 3.447 174.243-.173m-1.052-2.632c2.737 18.68 2.192 41.974 1.325 74.681m-.935-73.66c.964 29.176 1.236 56.882.902 72.12m.615-.443c-41.976 3-83.443 4.83-176.159 3.073m175.87-1.749c-49.002.465-95.98.624-174.891.062m-2.927-1.21c1.515-20.737.938-40.163 1.691-72.943m1.233 74.817c-1.937-20.367-.662-39.108-1.313-73.786"/>
+    </g>
+    <defs xmlns="http://www.w3.org/2000/svg">
+        <filter id="dsFilterNoBlur" width="150%" height="150%">
+            <feOffset dx="3" dy="3" in="SourceGraphic" result="offOut"/>
+            <feColorMatrix in="offOut" result="matrixOut" type="matrix" values="0.2 0 0 0 0 0 0.2 0 0 0 0 0 0.2 0 0 0 0 0 1 0"/>
+            <feBlend in="SourceGraphic" in2="matrixOut" mode="normal"/>
+        </filter>
+        <filter id="dsFilter" width="150%" height="150%">
+            <feOffset dx="3" dy="3" in="SourceGraphic" result="offOut"/>
+            <feColorMatrix in="offOut" result="matrixOut" type="matrix" values="0.2 0 0 0 0 0 0.2 0 0 0 0 0 0.2 0 0 0 0 0 1 0"/>
+            <feGaussianBlur in="matrixOut" result="blurOut" stdDeviation="3"/>
+            <feBlend in="SourceGraphic" in2="blurOut" mode="normal"/>
+        </filter>
+        <marker id="iPointer-k64m7uwe8a" fill="#000" markerHeight="7" markerUnits="strokeWidth" markerWidth="8" orient="auto" refX="5" refY="5" viewBox="0 0 10 10">
+            <path d="M10 0v10L0 5z"/>
+        </marker>
+        <marker id="Pointer-k64m7uwe8a" fill="#000" markerHeight="7" markerUnits="strokeWidth" markerWidth="8" orient="auto" refX="5" refY="5" viewBox="0 0 10 10">
+            <path d="M0 0l10 5-10 5z"/>
+        </marker>
+    </defs>
+    <defs>
+        <style type="text/css">
+            @font-face{font-family:&quot;xkcd Script&quot;;src:url(./xkcd-script.ttf)}
+        </style>
+    </defs>
+    ??
+    <text id="text2" x="201.825" y="153.6" fill="#000" stroke="none" font-family="xkcd Script" font-size="15">
+        Kubernetes
+    </text>
+    <text id="text0" x="87.075" y="81.6" fill="#fff" stroke="none" font-family="xkcd Script" font-size="15">
+        Vault operator
+    </text>
+    <text id="text1" x="276.075" y="81.6" fill="#fff" stroke="none" font-family="xkcd Script" font-size="15">
+        PostgreSQL operator
+    </text>
+    <text id="text3" x="73.575" y="225.6" fill="#fff" stroke="none" font-family="xkcd Script" font-size="15">
+        Jenkins X operator
+    </text>
+    <text id="text5" x="100.575" y="237.6" fill="#fff" stroke="none" font-family="xkcd Script" font-size="15">
+        (Tekton)
+    </text>
+    <text id="text4" x="289.575" y="225.6" fill="#fff" stroke="none" font-family="xkcd Script" font-size="15">
+        Kafka operator
+    </text>
+    <text id="text6" x="73.575" y="297.6" fill="#000" font-family="xkcd Script" font-size="15">
+        Any cloud offering a managed Kubernetes service
+    </text>
+</svg>
