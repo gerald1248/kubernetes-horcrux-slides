@@ -40,13 +40,25 @@ asciinema: false
 [c]: {"a2s:type": "circle", "a2s:delref": true, "fill": "transparent", "fillStyle": "solid"}
 ```
 
+<aside class="notes" data-markdown>
+Arguably what saves Voldemort from the fate of Snoke or Dooku is his decision to splinter his soul into horcruxes, at once part of him and independently animated.
+</aside>
+
 # THE HORCRUX STRATEGY {bgcss=tw-bg-light-blue}
 
 <img src="assets/img/snake.svg" width="500px"/>
 
 <div class="tiny">Source: <a href="https://pixabay.com/en/snake-animal-nature-reptile-3254415/">Pixabay</a></div>
 
+<aside class="notes" data-markdown>
+The harrowing final scene of the dead Voldemort disconsolate, childlike and beyond help draws a narrative arc back to the first book, superficially to Moaning Myrtle and then to the crushing loneliness of Tom Riddle the unloved orphan, alter ego of Harry Potter.
+</aside>
+
 # ORCHESTRATION "WARS" {bgcss=tw-bg-purple .light-on-dark}
+
+<aside class="notes" data-markdown>
+The scare quotes are important. These are phoney wars rooted in an exaggerated of the importance of container orchestration.
+</aside>
 
 # DISTRIBUTED DEPLOYMENT {bgcss=tw-bg-extra-light-blue}
 
@@ -87,6 +99,10 @@ Availability zone a           Availability zone b
 [o]: {"a2s:delref": true, "fill": "#f99c41", "fillStyle": "solid"}
 ```
 
+<aside class="notes" data-markdown>
+In essence orchestration is the deployment of service replicas across multiple hosts (virtualised or otherwise). The service abstraction allows the developer to ignore the hosts entirely.
+</aside>
+
 # CANARY DEPLOYMENT {bgcss=tw-bg-yellow}
 
 ```render_a2sketch
@@ -113,6 +129,10 @@ Availability zone a           Availability zone b
 [p]: {"a2s:delref": true, "fill": "#ef5ba1", "fillStyle": "solid", "strokeStyle": "#000"}
 [b]: {"a2s:delref": true, "fill": "#f99c41", "fillStyle": "solid", "strokeStyle": "#000"}
 ```
+
+<aside class="notes" data-markdown>
+The service construct allows such patterns as canary deployments to small subsets of the user base.
+</aside>
 
 # ZERO TRUST DEPLOYMENT {bgcss=tw-bg-yellow}
 
@@ -144,7 +164,17 @@ Availability zone a           Availability zone b
 [b]: {"a2s:delref": true, "fill": "#f99c41", "fillStyle": "solid", "strokeStyle": "#000"}
 ```
 
+<aside class="notes" data-markdown>
+Another popular pattern is the service mesh enabling zero trust networks, with mutual authentication for all inter-service communication.
+</aside>
+
+
 # THE COMPETITIVE ENVIRONMENT {bgcss=tw-bg-purple .light-on-dark}
+
+<aside class="notes" data-markdown>
+Stripped of their hyperbole, the container wars start with healthy competition in the market for container orchestration.
+</aside>
+
 
 # ALL HAPPY FAMILIES {bgcss=tw-bg-extra-light-blue}
 
@@ -169,7 +199,7 @@ Availability zone a           Availability zone b
 ```
 
 <aside class="notes" data-markdown>
-This position (there are platforms for end users and others for platform builders) is absolutely fine in a vibrant ecosystem of container schedulers. There's no doubt developers love Docker Swarm, for example.
+Unbelievably this is a subset of the software packages that sought to build on the runaway success of the emerging Docker container ecosystem.
 </aside>
 
 # SPLENDID ISOLATION {bgcss=tw-bg-extra-light-blue} 
@@ -195,10 +225,14 @@ This position (there are platforms for end users and others for platform builder
 ```
 
 <aside class="notes" data-markdown>
-However, that is not the ecosystem we have today. It seems odd to let Kubernetes displace all contenders only to say that it's for platform builders only.
+However, that is not the ecosystem we have today. Only Kubernetes remains and all major competitors have replatformed to adjust. I suspect that is why the Software Engineering Daily dubbed this sequence of events the container wars.
 </aside>
 
 # THE HORCRUX STRATEGY {bgcss=tw-bg-purple .light-on-dark}
+
+<aside class="notes" data-markdown>
+What lies behind this runaway success? It was not a foregone conclusion that this competition would be "winner takes all". One key ingredient, I want to argue, can be described as Kubernetes' horcrux strategy.
+</aside>
 
 # VENDOR SHARDING {bgcss=tw-bg-extra-light-blue}
 
@@ -237,6 +271,10 @@ However, that is not the ecosystem we have today. It seems odd to let Kubernetes
 
 ```
 
+<aside class="notes" data-markdown>
+Deliberately or not, Google succeeded in splitting the soul of Kubernetes in such a way that all competitors for the container orchestration crown took a major stake in Kubernetes: investing, hiring key contributors, creating "distributions" of their own. The first of these splinters was Red Hat's OpenShift.
+</aside>
+
 # PRECONDITIONS {bgcss=tw-bg-extra-light-blue}
 
 ```render_a2sketch
@@ -264,6 +302,10 @@ However, that is not the ecosystem we have today. It seems odd to let Kubernetes
 
 ```
 
+<aside class="notes" data-markdown>
+The special quality of these horcrux splinters was threefold.
+</aside>
+
 # PRECONDITIONS {bgcss=tw-bg-extra-light-blue}
 
 ```render_a2sketch
@@ -290,6 +332,10 @@ However, that is not the ecosystem we have today. It seems odd to let Kubernetes
 
 ```
 <small>A suitably permissive license is a necessary but not sufficient precondition.</small>
+
+<aside class="notes" data-markdown>
+It's just open source, isn't it? Not quite. An open source fork is a spell. It's unlikely to return to return to wreak vengeance on its creator the way Voldemort's attack on Harry's parents does. Open source is a necessary but insufficient factor.
+</aside>
 
 # PRECONDITIONS {bgcss=tw-bg-extra-light-blue}
 
@@ -332,6 +378,10 @@ However, that is not the ecosystem we have today. It seems odd to let Kubernetes
 ```
 <div class="tiny">Source: <a href="https://twitter.com/mattklein123/status/1229513052673855488?ref_src=twsrc%5Etfw">@mattklein123 on Twitter</a>, 17 February 2020.</div> 
 
+<aside class="notes" data-markdown>
+This is where the CNCF comes to the fore. As Matt Klein points out here, it offers the absolutely crucial guarantee of neutral IP ownership.
+</aside>
+
 # PRECONDITIONS {bgcss=tw-bg-extra-light-blue}
 
 ```render_a2sketch
@@ -360,6 +410,10 @@ However, that is not the ecosystem we have today. It seems odd to let Kubernetes
 
 <small>**Controllers** add custom processing to the core reconciliation loop.</small>
 <small>When paired with custom resource definitions, they are known as **operators**.</small>
+
+<aside class="notes" data-markdown>
+The third crucial dimension is extensibility. Red Hat were able to compensate for its absence by dedicating massive development resources to the problem. Even so, early OpenShift versions were barely compatible with mainline Kubernetes. Controllers and operators changed this entirely. The ability to define a new resource type "Virtual Machine" and manage VM fleets from the Kubernetes control plane emboldened the likes of VMware to step into the ring.
+</aside>
 
 # OPERATORS {bg=#fff44d}
 
@@ -392,6 +446,10 @@ However, that is not the ecosystem we have today. It seems odd to let Kubernetes
 [s]: {"a2s:type":"storage", "a2s:delref": true, "fillStyle": "solid", "fill": "#ffffff"}
 ```
 
+<aside class="notes" data-markdown>
+Here is a close-up of an operator, pairing a simple controller - which we can think of as a listener and a queue of Kubernetes events and updates, ready to react to particular labels, annotations or states  -  with a custom resource definition. Note the use of Kubernetes primitives at the heart of most operators.
+</aside>
+
 # STATEFUL WORKLOADS {bgcss=tw-bg-extra-light-blue}
 
 ```render_a2sketch
@@ -413,6 +471,10 @@ However, that is not the ecosystem we have today. It seems odd to let Kubernetes
 
 <div class="tiny">Source: <a href="https://coreos.com/blog/introducing-operators.html">coreos.com/blog/introducing-operators.html</a></div> 
 
+<aside class="notes" data-markdown>
+At this point it is only fair to quote Brandon Philips of CoreOS (in the post introducing operators to the world) to the effect that stateful Kubernetes workloads require careful planning and testing.
+</aside>
+
 # PIZZA EFFECTS {bgcss=tw-bg-extra-light-blue}
 
 ```{.render_plantuml args="-Sbackgroundcolor=transparent"}
@@ -429,6 +491,7 @@ Kubernetes->"CoreOS Tectonic" : Custom Resource Definitions
 ```
 
 <aside class="notes" data-markdown>
+Just as New York pizza chefs managed to repatriate what was essentially a New York dish in Naples, platforms built on Kubernetes have tended to contribute back to upstream. This is especially true of OpenShift and Tectonic, arguably the most important Kubernetes horcruxes.
 </aside>
 
 
@@ -443,8 +506,15 @@ MySQL operator<br/>
 PostgreSQL operator<br/>
 <img src="assets/img/Zalando_logo.svg" width="200px"/>
 
+<aside class="notes" data-markdown>
+It's worth reminding ourselves that the corporate backers of operators are not tiny startups but corporate behemoths, fast followers and key contributors to the cloud native ecosystem..
+</aside>
+
 # MEANWHILE IN THE CLOUD {bgcss=tw-bg-purple .light-on-dark}
 
+<aside class="notes" data-markdown>
+This reminds me that we have allowed ourselves to take our eyes off Amazon for a moment. This is usually a mistake.
+</aside>
 # FIRST MOVER ADVANTAGE {bg=#fff44d}
 
 ```render_vegalite
@@ -535,6 +605,11 @@ PostgreSQL operator<br/>
     }
 }
 ```
+<aside class="notes" data-markdown>
+This chart underplays Amazon's early mover advantage and its dominance of this field as its datacentres are typically larger than those of its competitors.
+
+Note that Alibaba was the first to spot their mistake. Microsoft benefits from the fact that they don't compete with AWS; they are converting their desktop installed base. Google's slow response is surprising and inexcusable.
+</aside>
 
 # A VERY PUBLIC BREAKUP {bgcss=tw-bg-extra-light-blue}
 
@@ -576,6 +651,12 @@ PostgreSQL operator<br/>
 <small>AWS perfected the use of services based on open source products.</small>
 <small>In 2016 MongoDB responded with the <a href="https://www.mongodb.com/community/licensing">Server Side Public License</a>.</small>
 
+<aside class="notes" data-markdown>
+In a way AWS itself can be seen as "Linux as a service". RDS is a particularly egregious example. The risk to open source vendors like MongoDB, Redis Labs, and so on is real, no matter what the Software Engineering Daily says. You cannot out-innovate an unregulated monopoly on which you depend for oxygen.
+
+As we are on the subject of splitting souls, this is as close as we have come to splitting the soul of open source.
+</aside>
+
 # TRADE WAR {bg=#fff44d}
 
 <small>Alibaba Cloud became a CNCF Gold Member and upgraded to Platinum in 2017.</small>
@@ -583,6 +664,12 @@ PostgreSQL operator<br/>
 <small>Alibaba affiliate Ant Financial, Baidu and Tencent also became Gold Members.</small>
 
 <img src="assets/img/android.svg"/>
+
+<aside class="notes" data-markdown>
+With the outbreak of trade hostilities between the US and China, the consequences of this power imbalance was thrown into sharp relief.
+
+The US government forcing Google to withhold Android support was a wake-up call for the technology sector in China, and this continues with the diplomatic war of words over 5G network access.
+</aside>
 
 # HORCRUX LIFE {bgcss=tw-bg-extra-light-blue}
 
@@ -620,6 +707,12 @@ PostgreSQL operator<br/>
 [e]: {"a2s:delref": true, "fill": "#00aa5b", "fillStyle": "solid", "strokeStyle": "#000"}
 ```
 
+<aside class="notes" data-markdown>
+What's our goal here? This is a fully realised vision of the cloud native stack. Maintaining the cluster is delegated to the cloud vendor; a robust managed Kubernetes offering is table stakes. We are dealing with Kubernetes primitives that are fully portable (or very nearly so), freeing up teams to think about how data should flow to achieve a good speed/cost trade-off.
+
+The operators themselves are the genuine article: genuine Kafka, PostgreSQL, MySQL, Jenkins, Vault, and so on, often supported by the company that is most invested in the success of the software.
+</aside>
+
 # ASPIRING CLOUD VENDORS {bgcss=tw-bg-extra-light-blue}
 
 ```render_a2sketch
@@ -649,6 +742,10 @@ Are you a bazaar kind of company?           |    ✓    |    ?    |
 [e]: {"a2s:delref": true, "fill": "#00aa5b", "fillStyle": "solid", "strokeStyle": "#000"}
 
 ```
+
+<aside class="notes" data-markdown>
+Unless you represent AWS, making this your direction of travel is a no-brainer. Open source companies and fans need to realise that the Kubernetes horcrux is the best and currently the only shot we have at competing with AWS.
+</aside>
 
 # THANK YOU {bgcss=tw-colorful .light-on-dark}
 
